@@ -9,5 +9,5 @@ If you want to use custom whitelist and blacklist for http domains, specify it i
 # COPY whitelist_IP.txt /etc/squid/whitelist_IP.txt
 
 Don't forget to add those files into squid.conf file, as:
-acl allowed_http_urls dstdomain "/etc/squid/whitelist_URL.txt"
-acl allowed_http_ips dst "/etc/squid/whitelist_IP.txt"
+# acl allowed_http_urls dstdomain "/etc/squid/whitelist_URL.txt"
+# acl allowed_http_ips dst "/etc/squid/whitelist_IP.txt"
